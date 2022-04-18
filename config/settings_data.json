@@ -112,7 +112,8 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "header": {
         "type": "header",
@@ -298,7 +299,8 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "header": {
           "type": "header",
