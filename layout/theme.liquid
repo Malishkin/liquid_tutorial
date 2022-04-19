@@ -212,14 +212,9 @@
 
   <body class="gradient">
     <div class="content-for-layout focus-none">
-      {% assign title_page = "Me"  %}
-     {% if title_page=="You" or page_title  %}
-      <p>Yes</p>
-      {% elsif page_title %}
-      <p>Sveta</p>
-      {% else %}
-      <p>No</p>
-      {% endif %}
+    {% for policy in shopify.policies %}
+      {{ policy.title }}
+    {% endfor %}
     </div>
   
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
