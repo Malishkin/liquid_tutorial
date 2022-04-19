@@ -3,9 +3,9 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": false,
+        "show_collection_description": true,
         "show_collection_image": false,
-        "color_scheme": "accent-2"
+        "color_scheme": "background-1"
       }
     },
     "product-grid": {
@@ -24,20 +24,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "165035727647251f0e": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "banner",
-    "product-grid",
-    "165035727647251f0e"
+    "product-grid"
   ]
 }
