@@ -212,13 +212,13 @@
 
   <body class="gradient">
     <div class="content-for-layout focus-none">
-      {% assign title_page = "Me" %}
-     {% if title_page=="Sveta" %}
+      {% assign title_page = "Me"  %}
+     {% if title_page=="Me" and page_title  %}
       <p>Yes</p>
       {% elsif page_title %}
       <p>Sveta</p>
       {% else %}
-      <p>Me</p>
+      <p>No</p>
       {% endif %}
     </div>
   
