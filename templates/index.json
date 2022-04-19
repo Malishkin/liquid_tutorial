@@ -6,21 +6,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Sveta Lantsman",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "Violinist for every event",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Take a look",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -35,6 +35,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/DSC_7169.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -53,7 +54,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Violinist for every event",
             "heading_size": "h1"
           }
         },
@@ -138,8 +139,9 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
+        "cover_image": "shopify:\/\/shop_images\/people-looking-at-light-beams-from-the-walls.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=wrR5Gat_1Yc",
+        "description": "SVETA VIOLIN כנרת לאירוע 0528533258",
         "full_width": false,
         "color_scheme": "background-1",
         "padding_top": 36,
