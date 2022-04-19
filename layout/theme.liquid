@@ -212,7 +212,11 @@
 
   <body class="gradient">
     <div class="content-for-layout focus-none">
-    Hello
+    {% assign brayden = 'Brayden' %}
+      
+      {% if brayden %}
+      	Brayden has a value
+      {% endif %}
     </div>
   
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
