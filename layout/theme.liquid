@@ -213,9 +213,9 @@
   <body class="gradient">
     <div class="content-for-layout focus-none">
       {% assign title_page = "Title" %}
-     {% if title_page %}
+     {% unless title_page %}
       <p>Yes</p>
-      {% endif %}
+      {% endunless %}
     </div>
   
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
