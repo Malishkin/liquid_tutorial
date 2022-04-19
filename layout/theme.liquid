@@ -211,7 +211,7 @@
   </head>
 
   <body class="gradient">
-    <div class="content-for-layout focus-none">
+    <div class="my_tag">
      {% assign my_limit = 12 %}
     {% for i in (0..my_limit) reversed  %}
       {{ i }}
@@ -222,6 +222,10 @@
       {% raw %}{{ Buria }}
       		   Вихри снежные крутя 
       {% endraw %}
+      {% style %}
+      .my_tag {
+      backgroundcolor: yellow }
+      {% endstyle %}
     </div>
   
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
