@@ -212,6 +212,8 @@
 
   <body class="gradient">
     <div class="my_tag">
+      
+      {% comment %}
      {% assign my_limit = 12 %}
     {% for i in (0..my_limit) reversed  %}
       {{ i }}
@@ -226,6 +228,7 @@
       .my_tag {
       background-color: magenta; }
       {% endstyle %}
+      {% endcomment %}
     </div>
   
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
