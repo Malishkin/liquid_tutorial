@@ -212,8 +212,8 @@
 
   <body class="gradient">
     <div class="content-for-layout focus-none">
-    {% for policy in shopify.policies %}
-      {{ policy.title }}
+    {% for product in shopify.products %}
+      {{ product.title }}
       
      {% else %}
       There are no policies on this store
