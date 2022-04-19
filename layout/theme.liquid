@@ -211,7 +211,7 @@
   </head>
 
   <body class="gradient">
-  
+  <h1> {{14000000 | money | prepend: 'Good morning, '}}</h1>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -219,6 +219,7 @@
     {% section 'announcement-bar' %}
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+      <h1>Hello</h1>
       {{ content_for_layout }}
     </main>
 
