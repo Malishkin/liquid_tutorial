@@ -235,7 +235,14 @@
       {% endcomment %}
       
       {% assign favourite_foods = 'hamburger, frites and coca-cola' %}
+      
       My favourite foods is {{ favourite_foods }}.
+      {% assign first_time_visitor = true %}
+      
+      {% if first_time_visitor == true %}
+      Welcome to our site, enjoy discount!
+      
+      {% endif %}
       
     </div>
   
