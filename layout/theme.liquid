@@ -217,6 +217,9 @@
       {% assign my_float = 25.21 %}
       {% assign my_bool = true %}
       {% assign my_empty = nil %}
+      {% for user in site.users %}
+       	{{ user }}
+      {% endfor %}
     </div>
   
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
