@@ -212,8 +212,8 @@
 
   <body class="gradient">
     <div class="content-for-layout focus-none">
-     {% assign my_limit = [1,2,3,4] %}
-    {% for i in my_limit   %}
+     {% assign my_limit = 10 %}
+    {% for i in (0.. my_limit)    %}
       {{ i }}
       
      {% else %}
