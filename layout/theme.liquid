@@ -214,6 +214,9 @@
     <div class="content-for-layout focus-none">
     {% for policy in shopify.policies %}
       {{ policy.title }}
+      
+     {% else %}
+      There are no policies on this store
     {% endfor %}
     </div>
   
